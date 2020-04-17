@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="80.0"
+    android:viewportHeight="80.0"
+    android:width="80dp"
+    android:height="80dp">
+    <path
+
+        android:strokeColor="@color/gray"
+        android:name="pulse"
+        android:pathData="M 0,40 L 18,40 L 22,25 L 26,40 L 28,40 L 30,50 L 36,1 L 40,65 L 44,40 L 50,40 L 54,30 L 58,40 L 72,40"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2"
+        android:trimPathEnd="0"
+        />
+    <!-- dividing
+    <path
+        android:name="middle"
+        android:pathData="M 30,50 L 36,1 L 40,65 L 44,40"
+        android:strokeColor="#0F9D58"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.5"
+        android:trimPathEnd="0"/>
+    <path
+        android:name="end"
+        android:pathData="M 44,40 L 50,40 L 54,30 L 58,40 L 72,40"
+        android:strokeColor="#0F9D58"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.5"
+        android:trimPathEnd="0"/>
+        -->
+</vector>

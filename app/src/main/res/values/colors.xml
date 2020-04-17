@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#009966</color>
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#9fcacaca</color>
+    <color name="text_shadow">#6e7b7b7b</color>
+    <color name="text_shadow_white">#ffffff</color>
+    <color name="gray">#757575</color>
+    <color name="text_color">#424242</color>
+    <color name="white">#ffffff</color>
+    <color name="green_flat">#2ecc71</color>
+    <color name="red_flat">#e74c3c</color>
+    <color name="list_divider">#979797</color>
+    <color name="list_item_selected_state">#F4F6F6</color>
+    <color name="list_item_normal_state">#FFFFFF</color>
+    <color name="title_disease">#ef5350</color>
+    <color name="percentage_match">#64b5f6</color>
+</resources>

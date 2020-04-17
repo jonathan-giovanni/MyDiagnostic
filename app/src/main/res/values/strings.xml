@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name" translatable="false">My Diagnostic</string>
+    <string name="search">Search</string>
+    <string name="medical_history">History</string>
+    <string name="diseases">Diseases</string>
+    <string name="delete">Delete</string>
+    <string name="general_settings">Settings</string>
+    <string name="profile_settings">Edit Profile</string>
+    <string name="exit">Exit</string>
+    <string name="more">More</string>
+    <string name="clear_symptoms">Clear Symptoms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="permission_rationale_location" translatable="false">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied" translatable="false">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_btn_find">Find</string>
+    <string name="title_first_content_fragment">
+        Learn
+    </string>
+
+    <string name="description_first_content_fragment">
+        Learn the basics
+    </string>
+
+    <string name="title_second_content_fragment">
+        Training
+    </string>
+
+    <string name="description_second_content_fragment">
+        Develop the exercise
+    </string>
+
+    <string name="title_third_content_fragment">
+        Quiz
+    </string>
+     <string name="description_third_content_fragment">
+        Select the correct answer
+    </string>
+    <string name="dialog_title">
+        Places Details
+    </string>
+    <string name="dialog_message">
+        content:
+    </string>
+    <string name="share">Share with...</string>
+    <string name="pie_chart" translatable="false">Pie Chart con mpAndroidChartLibrery</string>
+    <string name="download_message">All the diseases are stored in a cloud database, we are compromised to work adding more data for you.</string>
+
+    <!--   ACA ESTAN LOS LINK      -->
+    <string name="enlace1" translatable="false">
+       <a  href ="https://developers.google.com/maps/terms">Google Map API</a>
+    </string>
+    <string name="enlace2" translatable="false">
+        <a  href = "https://github.com/kofigyan/Thermometer/tree/master/app/src/main/java/com/janslab/thermometer">Thermometer Design</a>
+    </string>
+    <string name="enlace3" translatable="false">
+        <a  href = "https://github.com/PhilJay/MPAndroidChart">PieChart-MPAndroid Chart </a>
+    </string>
+    <string name="enlace4" translatable="false">
+        <a  href = "https://github.com/ongakuer/CircleIndicator">Circle Indicator Viewpager</a>
+    </string>
+
+    <string name="first_label_about">My diagnostic is an application for find diseases in a database that coincide with symptoms entered for user</string>
+    <string name="second_label_about">My Diagnostic was developed for the benefit of the Salvadorean people and anyone who wants to have a reliable source of disease information search, in addition to showing the clinics, hospitals and health units closest to their location.\nThis application has been developed without the intention of profit so it has no ads, just hard work from its creators.</string>
+    <string name="licenses">Licenses:</string>
+    <string name="third_label_about">My diagnostic is developed with purely academic goal for the benefit of the Salvadorean people and anyone who wants to know about an specific disease.</string>
+    <string name="creators">Creators:</string>
+    <string name="download_data">Download data</string>
+    <string name="next">Next</string>
+    <string name="settings_map">Settings Map</string>
+    <string name="distance_for_places">Radius Distance for Places (Km):</string>
+    <string name="settings_search">Settings Search</string>
+    <string name="minimum_search_percentage">Minimum search percentage:</string>
+    <string name="updates">Updates</string>
+    <string name="search_updates_now">Search Updates Now</string>
+    <string name="search_when_start">Search when app start:</string>
+    <string name="name">Name</string>
+    <string name="birth_day">"Birth Day : "</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="country">Country</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="i_agree">I Agree with this terms and conditions</string>
+    <string name="view_all_terms">View All terms</string>
+    <string name="add_to_medical_records">Add to medical records</string>
+    <string name="description">Description</string>
+    <string name="symptoms">"Symptoms : "</string>
+    <string name="stats">Stats</string>
+    <string name="first_title">Matching percentage of the symptoms with the disease</string>
+    <string name="second_title">Matching percentage of all the added symptoms</string>
+    <string name="search_diseases">Search Diseases</string>
+    <string name="first_title_fragment">Find diseases through your symptoms</string>
+    <string name="search_for_nearby_clinics">Search for nearby clinics</string>
+    <string name="four_title_fragment">Improve the accuracy of your diagnosis by consulting a close professional</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="date">Date :</string>
+    <string name="title">Title</string>
+    <string name="decription">Decription</string>
+    <string name="disease">Disease :</string>
+    <string name="search_your_symptom">Search your Symptom</string>
+    <string name="add">Add</string>
+    <string name="refresh">Refresh</string>
+    <string name="second_title_fragment">Save your searches and diagnosis in your personal medical record</string>
+    <string name="list_of_diseases">List of diseases</string>
+    <string name="third_title_fragment">View all the diseases stored in the app</string>
+    <string name="my_diagnostic_suggest">"My diagnostic suggested this condition on the basis of the following "</string>
+    <string name="match">"match "</string>
+    <string name="not_match">Not match</string>
+    <string name="no_title">No title</string>
+    <string name="no_description">No description</string>
+    <string name="my_diagnostic">My diagnostic</string>
+    <string name="when_I_looked">"When I looked for these symptoms: "</string>
+    <string name="at_matching_percentage_of">at matching percentage of</string>
+    <string name="i_searched">I searched</string>
+    <string name="from_the_diseases_list">from the diseases list</string>
+    <string name="disease_added_to_medical_record">Disease added to medical record</string>
+    <string name="disease_not_assigned">Disease : Not assigned</string>
+    <string name="using_my_diagnostic">using My Diagnostic.</string>
+    <string name="a_subject_here">A subject Here</string>
+    <string name="share_with">Share with ...</string>
+    <string name="gps_disable">GPS is disable, please Enabled</string>
+    <string name="not_network">You have not Network connection</string>
+    <string name="i_am_here">I am Here</string>
+    <string name="min_matching">Min matching :</string>
+    <string name="symptom_is_already_added">Symptom is already added </string>
+    <string name="symptom_added">Symptom added</string>
+    <string name="do_not_exit_this_symptom">Do not exist this symptom</string>
+    <string name="warning">Warning</string>
+    <string name="delete_this_symptom">Delete this symptom(s)?</string>
+    <string name="cancel">Cancel</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="close">Close</string>
+    <string name="if_you_want_to_use_my_diagnostic">If you want to use My Diagnostic you must accept the terms and conditions.</string>
+    <string name="connection_error">Connection error!</string>
+    <string name="search_radius_for_clinics">Search radius for clinics :</string>
+    <string name="minimus_search_percentage">Minimum search percentage :</string>
+    <string name="select_your_country">Select your country</string>
+    <string name="select_your_blood_type">Select your blood type :</string>
+    <string name="error_loading_image">Error loading image</string>
+    <string name="change_picture">Change picture</string>
+    <string name="the_name_should_contain">the name should contain at least 4 letters</string>
+    <string name="please_select_your_genre">Please select your genre</string>
+    <string name="loading">Loading...</string>
+    <string name="an_error_has_ocurred">An error occurred while downloading the data,\n Please check the internet connection. </string>
+    <string name="try_again">Try Again</string>
+    <string name="download_started">Download started</string>
+    <string name="downloading">Downloading...</string>
+    <string name="continuar">Continue</string>
+    <string name="download_finished">Download finished</string>
+    <string name="category">Category : </string>
+    <string name="matches">Matches : </string>
+    <string name="delete_this_medical_history">Delete this medical history?</string>
+    <string name="saving_the_image">Saving the image...</string>
+    <string name="image_saved_successfully">Image saved successfully</string>
+    <string name="an_error_trying_to_connect_the_server">1 An error has occurred while My Diagnostic trying to connect the server</string>
+    <string name="your_database_is_update">Your database version is already update</string>
+    <string name="update">Update</string>
+    <string name="do_yo_want_to_update">Do you want download the latest database version?</string>
+    <string name="yes">Yes</string>
+    <string name="later">Later</string>
+    <string name="about">About</string>
+    <string name="my_record">My records</string>
+    <string name="map">Map</string>
+</resources>

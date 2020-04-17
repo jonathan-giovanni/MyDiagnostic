@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/bb_menu_search"
+        icon="@drawable/ic_search"
+        title="@string/search"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+    <tab
+        id="@+id/bb_menu_history"
+        icon="@drawable/ic_history"
+        title="@string/my_record"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+    <tab
+        id="@+id/bb_menu_diseases"
+        icon="@drawable/ic_disease"
+        title="@string/diseases"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+    <tab
+        id="@+id/bb_menu_map"
+        icon="@drawable/ic_world"
+        title="@string/map"
+        barColorWhenSelected="@color/colorPrimary"
+        />
+
+</tabs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.dev4u.hv.my_diagnostic.MainActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_above="@+id/bottomBar"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        app:bb_inActiveTabAlpha="0.8"
+        app:bb_activeTabAlpha="1"
+        app:bb_inActiveTabColor="#bdbdbd"
+        app:bb_activeTabColor="#ffffff"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/menu_bottombar"/>
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frm_detail_disease"
+    android:clickable="true"
+    android:background="#FAFAFA"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="org.dev4u.hv.my_diagnostic.Fragments.DiseaseDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_alignParentStart="true"
+                        android:layout_width="70dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/disease_icon"
+                        android:id="@+id/img_disease" />
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/title_disease"
+                        android:id="@+id/lblDetailDiseaseName"
+                        android:text="Carpal Tunel Symdrome"
+                        android:typeface="serif"
+                        android:textSize="24sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/img_disease"
+                        android:layout_toStartOf="@+id/linearLayout"
+                        android:layout_alignBottom="@+id/img_disease" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/linearLayout">
+                        <org.dev4u.hv.my_diagnostic.Thermometer
+                            android:layout_marginRight="2dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:therm_color="@android:color/holo_blue_light"
+                            android:id="@+id/thermometerDisease"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:scaleY="1"
+                            android:scaleX="1"/>
+                        <TextView
+                            android:layout_marginBottom="4dp"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:id="@+id/lblDetailPercentage"
+                            android:text="80%"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/personalized_tag"
+                        android:textColor="@color/white"
+                        android:id="@+id/lblAddToHistory"
+                        android:gravity="left"
+                        android:text="@string/add_to_medical_records"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="1dp"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="1dp"
+                        android:layout_below="@+id/img_disease"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/colorAccent"
+                        android:id="@+id/lblDetailCategory"
+                        android:text="Liver Diseases"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:layout_below="@+id/lblAddToHistory"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/description"
+                        android:textSize="22sp"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/lblDetailDescription"
+                        android:textSize="15sp"
+                        android:text="Description: Typical lupus features include a butterfly-shaped rash on the cheeks, a rash that appears on areas exposed to the sun, me per and disappear. fy after being exposed to the sun or after a hard day's work."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:typeface="monospace" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/lblDetailSymptomsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/symptoms"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:textSize="15sp"
+                        android:id="@+id/lblSymptomsList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView_stats"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:textAlignment="center"
+                        android:layout_marginBottom="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stats"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:textSize="15sp"
+                        android:id="@+id/lblStats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:textAlignment="center"
+                        android:text="@string/first_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:id="@+id/piechart2"
+                        android:layout_width="260dp"
+                        android:layout_height="260dp"
+                        />
+                    <TextView
+                        android:textAlignment="center"
+                        android:text="@string/second_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold"
+                        />
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/piechart"
+                        android:layout_width="260dp"
+                        android:layout_height="260dp"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

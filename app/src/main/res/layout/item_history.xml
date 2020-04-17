@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/item_history"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginRight="5dp">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lblTitleitemHistory"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp"
+            android:textSize="18sp"
+            android:text="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lblDescriptionItemHistory"
+            android:layout_marginBottom="2dp"
+            android:text="Description"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/personalized_tag"
+            android:textColor="@color/white"
+            android:id="@+id/lblDiseaseItemHistory"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="Carpal Tunnel Syndrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="1dp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/lblDateItemHistory"
+            android:gravity="right"
+            android:text="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

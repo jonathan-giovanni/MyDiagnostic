@@ -1,0 +1,4 @@
+Detalles de Key
+
+user: mydiagnostic
+pass: mydiagnostic

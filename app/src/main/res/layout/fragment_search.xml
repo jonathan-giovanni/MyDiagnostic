@@ -1,0 +1,76 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:id="@+id/frm_search">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+
+            android:layout_margin="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_weight="1.0"
+                    android:id="@+id/input_layout_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <AutoCompleteTextView
+                        android:completionThreshold="1"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txtSymptom"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textAutoComplete|textAutoCorrect"
+                        android:hint="@string/search_your_symptom" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:text="@string/add"
+                    android:background="@drawable/personalized_button"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnAddSymptom" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="2dp"
+            android:id="@+id/recycler_view_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSearchDisease"
+        android:src="@drawable/ic_search"
+        android:tint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.dev4u.hv.my_diagnostic.UserDataActivity"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        android:focusableInTouchMode="false"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:src="@drawable/ic_profile"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffff"
+            android:layout_width="65dp"
+            android:layout_height="65dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLength="250"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2.0"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_marginRight="2dp"
+            android:layout_gravity="center"
+            android:tint="@color/gray"
+            android:src="@drawable/ic_birthday"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:gravity="left"
+            android:text="@string/birth_day"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            style="@style/TextBigShadowStyle"
+            android:id="@+id/textView"
+            android:textSize="14dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:text="01/01/1990"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:background="@drawable/personalized_button"
+            android:layout_weight="1.5"
+            android:textColor="@color/text_color"
+            style="@style/TextBigShadowStyle"
+            android:id="@+id/btnDate" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="2dp"
+            android:layout_gravity="center"
+            android:tint="@color/gray"
+            android:src="@drawable/ic_cat_6"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="@string/gender"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            style="@style/TextBigShadowStyle"
+            android:layout_weight="1" />
+        <RadioGroup
+            android:weightSum="1"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:text="@string/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbnMale"
+                android:layout_weight="0.5"
+                android:buttonTint="#616161"
+
+                android:textColor="@color/text_color"
+                style="@style/TextBigShadowStyle" />
+            <RadioButton
+                android:layout_weight="0.5"
+                android:text="@string/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbnFemale"
+
+                android:textColor="@color/text_color"
+                android:buttonTint="#616161"
+                style="@style/TextBigShadowStyle" />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2.0"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="2dp"
+            android:layout_gravity="center"
+            android:tint="@color/gray"
+            android:src="@drawable/ic_world"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:text="@string/country"
+            android:gravity="left"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            style="@style/TextBigShadowStyle"
+
+            />
+        <Button
+            android:text="El Salvador"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:background="@drawable/personalized_button"
+            android:layout_weight="1.5"
+            style="@style/TextBigShadowStyle"
+
+            android:textColor="@color/text_color"
+            android:id="@+id/btnCountry" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:weightSum="2.0"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="2dp"
+            android:layout_gravity="center"
+            android:tint="@color/gray"
+            android:src="@drawable/ic_blood"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:gravity="left"
+            android:text="@string/blood_type"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            style="@style/TextBigShadowStyle"
+            />
+        <Button
+            android:text="O+"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:background="@drawable/personalized_button"
+            android:layout_weight="1.5"
+            style="@style/TextBigShadowStyle"
+
+            android:textColor="@color/text_color"
+            android:id="@+id/btnBlood" />
+
+    </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSave"
+        android:src="@drawable/ic_check_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp" />
+
+</android.support.design.widget.CoordinatorLayout>
