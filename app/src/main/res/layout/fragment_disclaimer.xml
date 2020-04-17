@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/textView32"
-            android:text="Please note that the evaluation My Diagnostic provides is solely for informational and educatives purposes based on the information available in our database and is not a qualified medical opinion."
+            android:text="Tenga en cuenta que la evaluación que proporciona My Diagnostic es únicamente para fines informativos en función de la información disponible en nuestra base de datos la cual es una recopilación de fuentes confiables como la OMS (ORGANIZACIÓN MUNDIAL DE LA SALUD).\n\n My Diagnostic brinda resultados estadísticos en base a los sintomas que coinciden con una enfermedad, por lo que no sustituye la opinión y el diagnóstico de un profesional de la salud.\n\n\n#QuédateEnCasaTechChallengeSV"
             android:layout_marginRight="8dp"
             android:layout_marginLeft="8dp"
             android:textColor="@color/light_font"

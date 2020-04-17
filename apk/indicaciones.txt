@@ -1,0 +1,12 @@
+Qué es un APK
+
+Comencemos por lo básico. Un APK es un tipo de archivo empaquetado en un formato apto para instalarse en Android, y funciona de manera similar a los archivos .exe de un ordenador. Android es capaz de leer los archivos APK para instalarlos en nuestro sistema de una forma rápida y sencilla, siendo únicamente necesario ejecutar primero el archivo en cuestión. Del mismo modo, cuando queremos realizar una copia de seguridad de una aplicación, el formato APK nos puede ayudar a extraerla sin complicaciones del móvil.
+
+
+Cómo instalar una APK en Android
+
+Una vez descarguemos un archivo APK, lo siguiente que tendremos que hacer es instalarlo en nuestro sistema. Antes de comenzar, deberemos habilitar el sistema para que acepte la instalación de aplicaciones que no vengan desde Google Play.
+
+Para ello, nos dirigiremos a Ajustes->Seguridad. En este submenú aparecerá una opción llamada Orígenes desconocidos, la cual tendremos que activar. En el momento en el vayamos a activarlo, en la pantalla nos aparecerá una advertencia informándonos de los riesgos de instalar aplicaciones que no procedan de la tienda de Google Play. My Diagnostic es código seguro y 100% libre de virus, si deseas puedes compilar y depurar en el dispositivo.
+
+Una vez descargada My Diagnostic nos dirigiremos a la carpeta de descargas de nuestro dispositivo y pulsaremos el archivo APK que queramos instalar. Al hacerlo, se nos aparecerá un menú que nos resume los permisos que requerirá la aplicación. Una vez aceptemos estos permisos, la aplicación se instalará y ya estará disponible en el sistema para ser utilizada.

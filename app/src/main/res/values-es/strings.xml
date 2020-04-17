@@ -54,7 +54,7 @@
     <string name="search_updates_now">Buscar actualizaciones ahora</string>
     <string name="search_when_start">Buscar cuando la app inicie</string>
     <string name="search_your_symptom">Busca tus sintomas</string>
-    <string name="first_label_about">My Diagnostic es una aplicación diseñada para buscar enfermedades en una base de datos donde los sintomas coincidan con los que ingreso el usuario.\nLa base de datos ha sido una recopilación de sintomas y enfermades publicadas por la OMS (Organización mundial de la Salud)</string>
+    <string name="first_label_about">#QuédateEnCasaTechChallengeSV\n\nMy Diagnostic es una aplicación diseñada para buscar enfermedades en una base de datos donde los sintomas coincidan con los que ingreso el usuario.\nLa base de datos ha sido una recopilación de sintomas y enfermades publicadas por la OMS (Organización mundial de la Salud)</string>
     <string name="second_label_about">Mi diagnóstico se ha desarrollado con fines de beneficioy orientación social.\n My diagnostic no debe reemplazar la opinión médica de un profesional de la salud, su utilidad es guiar un prediagnóstico para ser verificado por un médico profesional.</string>
     <string name="second_title">Porcentaje de coincidencia con respecto a todos los sintomas agregados</string>
     <string name="second_title_fragment">Guarda tus busquedas y diagnosticos en tu récord médico personal</string>
